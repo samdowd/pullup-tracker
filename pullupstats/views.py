@@ -1,11 +1,4 @@
 from django.shortcuts import render
-
-import RPi.GPIO as GPIO
-import Adafruit_CharLCD as LCD
-
-import dataset
-import time
-import psycopg2
 import json
 
 from .models import Roommate
