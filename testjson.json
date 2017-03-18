@@ -2,25 +2,25 @@
   "count": 3, 
   "results": [
     {
-      "name": "Blade", 
-      "code": 2, 
-      "max": 8, 
-      "total": 198, 
-      "day_total": 5
-    }, 
-    {
       "name": "J-bod", 
       "code": 3, 
       "max": 11, 
-      "total": 220, 
-      "day_total": 14
+      "total": 224, 
+      "day_total": 0
+    }, 
+    {
+      "name": "Blade", 
+      "code": 2, 
+      "max": 8, 
+      "total": 266, 
+      "day_total": 0
     }, 
     {
       "name": "Sam", 
       "code": 1, 
       "max": 10, 
-      "total": 180, 
-      "day_total": 54
+      "total": 228, 
+      "day_total": 0
     }
   ], 
   "meta": {}
