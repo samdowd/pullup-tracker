@@ -1,0 +1,10 @@
+<html>
+<body>
+<h1>PULLUP STATS</h1>
+{% for roommate in roommates %}
+	<h2>{{ roommate.name }} - {{ roommate.code }}</h1>
+	<p><strong>One set maximum:</strong> {{ roommate.max_pullups }}</p>
+	<p><strong>Total pullups:</strong> {{ roommate.total_pullups }}</p>
+{% endfor %}
+</body>
+</html>
