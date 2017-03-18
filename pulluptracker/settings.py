@@ -25,7 +25,11 @@ SECRET_KEY = '))ra_tdx7_=@t0=03zjx+-5m8vq+kaa94$(gi4s!(5m_+^tke7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    'pullup-tracker.herokuapp.com',
+    '.mdowd.me',
+]
 
 
 # Application definition
