@@ -5,22 +5,22 @@
       "name": "J-bod", 
       "code": 3, 
       "max": 11, 
-      "total": 224, 
-      "day_total": 0
-    }, 
-    {
-      "name": "Blade", 
-      "code": 2, 
-      "max": 8, 
-      "total": 266, 
-      "day_total": 0
+      "total": 264, 
+      "day_total": 40
     }, 
     {
       "name": "Sam", 
       "code": 1, 
       "max": 10, 
-      "total": 228, 
-      "day_total": 0
+      "total": 269, 
+      "day_total": 41
+    }, 
+    {
+      "name": "Blade", 
+      "code": 2, 
+      "max": 8, 
+      "total": 279, 
+      "day_total": 13
     }
   ], 
   "meta": {}

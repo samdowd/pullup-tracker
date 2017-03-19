@@ -1,0 +1,27 @@
+{
+  "count": 3, 
+  "results": [
+    {
+      "name": "Blade", 
+      "code": 2, 
+      "max": 8, 
+      "total": 295, 
+      "day_total": 0
+    }, 
+    {
+      "name": "J-bod", 
+      "code": 3, 
+      "max": 11, 
+      "total": 275, 
+      "day_total": 0
+    }, 
+    {
+      "name": "Sam", 
+      "code": 1, 
+      "max": 12, 
+      "total": 281, 
+      "day_total": 0
+    }
+  ], 
+  "meta": {}
+}

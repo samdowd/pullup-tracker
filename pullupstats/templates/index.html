@@ -1,8 +1,9 @@
 <html>
 <body>
 <h1>PULLUP STATS</h1>
+<img href='dailies.png' />
 {% for roommate in roommates %}
-	<h2>{{ roommate.name }} - {{ roommate.code }}</h1>
+	<h2>{{ roommate.name }}</h1>
 	<p><strong>One set maximum:</strong> {{ roommate.max_pullups }}</p>
 	<p><strong>Total pullups:</strong> {{ roommate.total_pullups }}</p>
 {% endfor %}
