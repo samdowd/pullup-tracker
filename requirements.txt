@@ -5,4 +5,4 @@ dataset==0.8.0
 html5lib==0.999
 psycopg2==2.7.1
 urllib3==1.9.1
-python-matplotlib==1.4.2
+matplotlib==1.4.2
