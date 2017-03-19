@@ -1,7 +1,9 @@
+{% load staticfiles %}
+
 <html>
 <body>
 <h1>PULLUP STATS</h1>
-<img src='dailies.png' />
+<img src='{% static 'dailies.png' %}' />
 {% for roommate in roommates %}
 	<h2>{{ roommate.name }}</h1>
 	<p><strong>One set maximum:</strong> {{ roommate.max_pullups }}</p>
