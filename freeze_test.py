@@ -1,3 +1,4 @@
+import os
 import dataset
 import json
 
@@ -51,3 +52,8 @@ plt.legend(handles=[sam_patch, zach_patch, jarrod_patch])
 plt.axis([0, 31, 0, max(totals) * 3])
 
 fig.savefig('pullupstats/static/dailies.png')
+
+os.system("python manage.py collectstatic")
+os.system("git add .")
+os.system("git commit -m 'auto commit'")
+os.system("git push heroku master")
