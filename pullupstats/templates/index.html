@@ -1,13 +1,74 @@
 {% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<html>
-<body>
-<h1>PULLUP STATS</h1>
-<img src='{% static 'dailies.png' %}' />
-{% for roommate in roommates %}
-	<h2>{{ roommate.name }}</h1>
-	<p><strong>One set maximum:</strong> {{ roommate.max_pullups }}</p>
-	<p><strong>Total pullups:</strong> {{ roommate.total_pullups }}</p>
-{% endfor %}
-</body>
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="col-md-10 col-md-offset-1 text-center">
+                <div class="col-md-12 text-center title">
+                    <h1>L1 Pullup Stats</h1>
+                    <hr />
+                </div>
+                <div class="col-md-12">
+                    <h2>All Time Champion</h2>
+                    <h1>Name - Total</h1>
+                    <hr />
+                </div>
+                <div class="col-md-12">
+                    <h2>Monthly Champions</h2>
+                    <div class="col-md-4">
+                        <h3>March</h3>
+                        <h1>TBD</h1>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>April</h3>
+                        <h1>TBD</h1>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>May</h3>
+                        <h1>TBD</h1>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <hr />
+                    <h2>This Month</h2>
+                    <img class="img-responsive center-block" src="{% static 'dailies.png' %}" />
+                    <hr />
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <h2>Highest One Set Max</h2>
+                        <h1>Name - Max</h1>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Most Daily Wins</h2>
+                        <h1>Name - #</h1>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <hr />
+                    <h2>Inidividual Stats</h2>
+                    {% for roommate in roommates %}
+                    <div class="col-md-6">
+                        <h2>{{ roommate.name }}</h1>
+                        <p><strong>One set maximum:</strong> {{ roommate.max_pullups }}</p>
+                        <p><strong>Total pullups:</strong> {{ roommate.total_pullups }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
