@@ -11,9 +11,9 @@ roommates_db = dataset.connect('postgresql://sam:hellfire@localhost:5432/roommat
 users_db = roommates_db['users']
 dtotals_db = roommates_db['daily_totals']
 
-sams_days = roommates_db.query("SELECT total, month_to_date, date FROM daily_totals WHERE user_name = 'Sam' ORDER BY date;")
-zachs_days = roommates_db.query("SELECT total, month_to_date, date FROM daily_totals WHERE user_name = 'Blade' ORDER BY date;")
-jarrods_days = roommates_db.query("SELECT total, month_to_date, date FROM daily_totals WHERE user_name = 'J-bod' ORDER BY date;")
+sams_days = roommates_db.query("SELECT user_name, total, month_to_date, date FROM daily_totals WHERE user_name = 'Sam' ORDER BY date;")
+zachs_days = roommates_db.query("SELECT user_name, total, month_to_date, date FROM daily_totals WHERE user_name = 'Blade' ORDER BY date;")
+jarrods_days = roommates_db.query("SELECT user_name, total, month_to_date, date FROM daily_totals WHERE user_name = 'J-bod' ORDER BY date;")
 dataset.freeze(sams_days, format='json', filename='sams_days.json')
 dataset.freeze(zachs_days, format='json', filename='zachs_days.json')
 dataset.freeze(jarrods_days, format='json', filename='jarrods_days.json')
@@ -41,9 +41,9 @@ totals = sam_totals + zach_totals + jarrod_totals
 fig = plt.figure()
 ax = fig.add_subplot(111)
 ax.plot(days, sam_totals, 'r-', days, zach_totals, 'b-', days, jarrod_totals, 'g-')
-#plt.gca().axes.get_xaxis().set_visible(False)
+plt.xlabel("Day of the month")
 plt.ylabel("Number of Pullups")
-plt.title("Daily Totals")
+plt.title("Monthly Running Total by Day")
 sam_patch = mpatches.Patch(color='red', label='Sam')
 zach_patch = mpatches.Patch(color='blue', label='Zach')
 jarrod_patch = mpatches.Patch(color='green', label='Jarrod')

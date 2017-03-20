@@ -1,25 +1,35 @@
 {
-  "count": 4, 
+  "count": 5, 
   "results": [
     {
+      "user_name": "J-bod", 
       "total": 129, 
       "month_to_date": 129, 
       "date": "2017-03-16"
     }, 
     {
+      "user_name": "J-bod", 
       "total": 77, 
       "month_to_date": 206, 
       "date": "2017-03-17"
     }, 
     {
+      "user_name": "J-bod", 
       "total": 18, 
       "month_to_date": 224, 
       "date": "2017-03-18"
     }, 
     {
+      "user_name": "J-bod", 
       "total": 51, 
       "month_to_date": 275, 
       "date": "2017-03-19"
+    }, 
+    {
+      "user_name": "J-bod", 
+      "total": 127, 
+      "month_to_date": 402, 
+      "date": "2017-03-20"
     }
   ], 
   "meta": {}

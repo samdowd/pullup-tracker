@@ -1,25 +1,35 @@
 {
-  "count": 4, 
+  "count": 5, 
   "results": [
     {
+      "user_name": "Blade", 
       "total": 122, 
       "month_to_date": 122, 
       "date": "2017-03-16"
     }, 
     {
+      "user_name": "Blade", 
       "total": 71, 
       "month_to_date": 193, 
       "date": "2017-03-17"
     }, 
     {
+      "user_name": "Blade", 
       "total": 73, 
       "month_to_date": 266, 
       "date": "2017-03-18"
     }, 
     {
+      "user_name": "Blade", 
       "total": 29, 
       "month_to_date": 295, 
       "date": "2017-03-19"
+    }, 
+    {
+      "user_name": "Blade", 
+      "total": 92, 
+      "month_to_date": 387, 
+      "date": "2017-03-20"
     }
   ], 
   "meta": {}
