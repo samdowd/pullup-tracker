@@ -3,18 +3,22 @@
   "results": [
     {
       "total": 122, 
+      "month_to_date": 122, 
       "date": "2017-03-16"
     }, 
     {
       "total": 71, 
+      "month_to_date": 193, 
       "date": "2017-03-17"
     }, 
     {
       "total": 73, 
+      "month_to_date": 266, 
       "date": "2017-03-18"
     }, 
     {
       "total": 29, 
+      "month_to_date": 295, 
       "date": "2017-03-19"
     }
   ], 
