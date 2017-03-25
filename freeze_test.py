@@ -23,9 +23,13 @@ dataset.freeze(jarrods_days, format='json', filename='jarrods_days.json')
 
 dataset.freeze(users_db, format='json', filename='overview.json')
 
+print("datasets frozen")
+
 sams_days = json.load(open('sams_days.json', 'r'))['results']
 zachs_days = json.load(open('zachs_days.json', 'r'))['results']
 jarrods_days = json.load(open('jarrods_days.json', 'r'))['results']
+
+print("files loaded")
 
 sam_totals = [0]
 days = [15]
@@ -41,6 +45,8 @@ for day in jarrods_days:
 
 totals = sam_totals + zach_totals + jarrod_totals
 
+print("totals found")
+
 fig = plt.figure()
 ax = fig.add_subplot(111)
 ax.plot(days, sam_totals, 'r-', days, zach_totals, 'b-', days, jarrod_totals, 'g-')
@@ -55,6 +61,7 @@ plt.axis([0, 31, 0, max(totals) * 2])
 
 fig.savefig('pullupstats/static/dailies.png')
 
+print ("image made")
 
 # Push to heroku
 os.popen("python manage.py collectstatic").read()
@@ -64,3 +71,5 @@ time.sleep(10)
 os.popen("git commit -m 'auto commit'").read()
 time.sleep(10)
 os.popen("git push heroku master").read()
+
+print("git done")
