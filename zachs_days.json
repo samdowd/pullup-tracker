@@ -1,59 +1,65 @@
 {
-  "count": 9, 
+  "count": 10, 
   "results": [
     {
-      "user_name": "Blade", 
-      "total": 122, 
       "month_to_date": 122, 
-      "date": "2017-03-16"
+      "date": "2017-03-16", 
+      "total": 122, 
+      "user_name": "Blade"
     }, 
     {
-      "user_name": "Blade", 
-      "total": 71, 
       "month_to_date": 193, 
-      "date": "2017-03-17"
+      "date": "2017-03-17", 
+      "total": 71, 
+      "user_name": "Blade"
     }, 
     {
-      "user_name": "Blade", 
-      "total": 73, 
       "month_to_date": 266, 
-      "date": "2017-03-18"
+      "date": "2017-03-18", 
+      "total": 73, 
+      "user_name": "Blade"
     }, 
     {
-      "user_name": "Blade", 
-      "total": 29, 
       "month_to_date": 295, 
-      "date": "2017-03-19"
+      "date": "2017-03-19", 
+      "total": 29, 
+      "user_name": "Blade"
     }, 
     {
-      "user_name": "Blade", 
-      "total": 92, 
       "month_to_date": 387, 
-      "date": "2017-03-20"
+      "date": "2017-03-20", 
+      "total": 92, 
+      "user_name": "Blade"
     }, 
     {
-      "user_name": "Blade", 
-      "total": 18, 
       "month_to_date": 405, 
-      "date": "2017-03-21"
+      "date": "2017-03-21", 
+      "total": 18, 
+      "user_name": "Blade"
     }, 
     {
-      "user_name": "Blade", 
-      "total": 2, 
       "month_to_date": 407, 
-      "date": "2017-03-22"
-    }, 
-    {
-      "user_name": "Blade", 
+      "date": "2017-03-22", 
       "total": 2, 
-      "month_to_date": 409, 
-      "date": "2017-03-23"
+      "user_name": "Blade"
     }, 
     {
-      "user_name": "Blade", 
-      "total": 57, 
+      "month_to_date": 409, 
+      "date": "2017-03-23", 
+      "total": 2, 
+      "user_name": "Blade"
+    }, 
+    {
       "month_to_date": 466, 
-      "date": "2017-03-24"
+      "date": "2017-03-24", 
+      "total": 57, 
+      "user_name": "Blade"
+    }, 
+    {
+      "month_to_date": 557, 
+      "date": "2017-03-25", 
+      "total": 91, 
+      "user_name": "Blade"
     }
   ], 
   "meta": {}

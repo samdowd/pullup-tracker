@@ -1,59 +1,65 @@
 {
-  "count": 9, 
+  "count": 10, 
   "results": [
     {
-      "user_name": "J-bod", 
-      "total": 129, 
       "month_to_date": 129, 
-      "date": "2017-03-16"
+      "date": "2017-03-16", 
+      "total": 129, 
+      "user_name": "J-bod"
     }, 
     {
-      "user_name": "J-bod", 
-      "total": 77, 
       "month_to_date": 206, 
-      "date": "2017-03-17"
+      "date": "2017-03-17", 
+      "total": 77, 
+      "user_name": "J-bod"
     }, 
     {
-      "user_name": "J-bod", 
-      "total": 18, 
       "month_to_date": 224, 
-      "date": "2017-03-18"
+      "date": "2017-03-18", 
+      "total": 18, 
+      "user_name": "J-bod"
     }, 
     {
-      "user_name": "J-bod", 
-      "total": 51, 
       "month_to_date": 275, 
-      "date": "2017-03-19"
-    }, 
-    {
-      "user_name": "J-bod", 
-      "total": 127, 
-      "month_to_date": 402, 
-      "date": "2017-03-20"
-    }, 
-    {
-      "user_name": "J-bod", 
+      "date": "2017-03-19", 
       "total": 51, 
+      "user_name": "J-bod"
+    }, 
+    {
+      "month_to_date": 402, 
+      "date": "2017-03-20", 
+      "total": 127, 
+      "user_name": "J-bod"
+    }, 
+    {
       "month_to_date": 453, 
-      "date": "2017-03-21"
+      "date": "2017-03-21", 
+      "total": 51, 
+      "user_name": "J-bod"
     }, 
     {
-      "user_name": "J-bod", 
-      "total": 61, 
       "month_to_date": 514, 
-      "date": "2017-03-22"
+      "date": "2017-03-22", 
+      "total": 61, 
+      "user_name": "J-bod"
     }, 
     {
-      "user_name": "J-bod", 
-      "total": 50, 
       "month_to_date": 564, 
-      "date": "2017-03-23"
+      "date": "2017-03-23", 
+      "total": 50, 
+      "user_name": "J-bod"
     }, 
     {
-      "user_name": "J-bod", 
-      "total": 66, 
       "month_to_date": 630, 
-      "date": "2017-03-24"
+      "date": "2017-03-24", 
+      "total": 66, 
+      "user_name": "J-bod"
+    }, 
+    {
+      "month_to_date": 667, 
+      "date": "2017-03-25", 
+      "total": 37, 
+      "user_name": "J-bod"
     }
   ], 
   "meta": {}

@@ -82,6 +82,40 @@ def count_a_set(user):
         time.sleep(0.25)
 
 
+def count_a_guest_set():
+    lcd.clear()
+    lcd.show_cursor(False)
+    lcd.blink(False)
+    lcd.message("Welcome, {}!\nBegin.".format(user.name))
+    set_complete = False
+    while not set_complete:
+        # Start the first time the user raises their body
+        if GPIO.input(14):
+            pullup_count = 0
+            secondsPassed = 0.0
+            # Wait 3 seconds between pullups, break when the user takes longer than 3 seconds
+            while secondsPassed < 3:
+                if GPIO.input(14):
+                    os.system('mpg123 -q bang.mp3 &')
+                    pullup_count += 1
+                    lcd.clear()
+                    lcd.message("Nice!\n%d pullups" % pullup_count)
+                    secondsPassed = 0.0
+                    # Wait for user to lower body
+                    while GPIO.input(14):
+                        time.sleep(0.05)
+                time.sleep(0.1)
+                secondsPassed += .1
+
+            set_complete = True
+            os.system('mpg123 -q ding.mp3 &')
+            record_a_set(user, pullup_count)
+            lcd.clear()
+            lcd.message("Total: {}".format(pullup_count))
+            time.sleep(3)
+        time.sleep(0.25)
+
+
 def check_for_keypress():
     pad_pins = {4:13, 1:19, 3:6, 2:26}
     for pin in pad_pins:
@@ -141,8 +175,6 @@ def wait_for_code(users):
         else:
             lcd.message("Sorry!\nUnknown Code")
             time.sleep(.5)
-        code = []
-        wait_for_code(users)
 
 
 

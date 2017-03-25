@@ -1,59 +1,65 @@
 {
-  "count": 9, 
+  "count": 10, 
   "results": [
     {
-      "user_name": "Sam", 
-      "total": 120, 
       "month_to_date": 120, 
-      "date": "2017-03-16"
+      "date": "2017-03-16", 
+      "total": 120, 
+      "user_name": "Sam"
     }, 
     {
-      "user_name": "Sam", 
-      "total": 6, 
       "month_to_date": 126, 
-      "date": "2017-03-17"
+      "date": "2017-03-17", 
+      "total": 6, 
+      "user_name": "Sam"
     }, 
     {
-      "user_name": "Sam", 
-      "total": 102, 
       "month_to_date": 228, 
-      "date": "2017-03-18"
+      "date": "2017-03-18", 
+      "total": 102, 
+      "user_name": "Sam"
     }, 
     {
-      "user_name": "Sam", 
-      "total": 53, 
       "month_to_date": 281, 
-      "date": "2017-03-19"
+      "date": "2017-03-19", 
+      "total": 53, 
+      "user_name": "Sam"
     }, 
     {
-      "user_name": "Sam", 
-      "total": 95, 
       "month_to_date": 376, 
-      "date": "2017-03-20"
+      "date": "2017-03-20", 
+      "total": 95, 
+      "user_name": "Sam"
     }, 
     {
-      "user_name": "Sam", 
-      "total": 8, 
       "month_to_date": 384, 
-      "date": "2017-03-21"
+      "date": "2017-03-21", 
+      "total": 8, 
+      "user_name": "Sam"
     }, 
     {
-      "user_name": "Sam", 
-      "total": 4, 
       "month_to_date": 388, 
-      "date": "2017-03-22"
+      "date": "2017-03-22", 
+      "total": 4, 
+      "user_name": "Sam"
     }, 
     {
-      "user_name": "Sam", 
+      "month_to_date": 389, 
+      "date": "2017-03-23", 
       "total": 1, 
-      "month_to_date": 389, 
-      "date": "2017-03-23"
+      "user_name": "Sam"
     }, 
     {
-      "user_name": "Sam", 
-      "total": 0, 
       "month_to_date": 389, 
-      "date": "2017-03-24"
+      "date": "2017-03-24", 
+      "total": 0, 
+      "user_name": "Sam"
+    }, 
+    {
+      "month_to_date": 389, 
+      "date": "2017-03-25", 
+      "total": 0, 
+      "user_name": "Sam"
     }
   ], 
   "meta": {}

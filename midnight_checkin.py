@@ -66,6 +66,9 @@ dataset.freeze(jarrods_days, format='json', filename='jarrods_days.json')
 
 dataset.freeze(users_db, format='json', filename='overview.json')
 
+print("datasets frozen")
+time.sleep(10)
+
 sams_days = json.load(open('sams_days.json', 'r'))['results']
 zachs_days = json.load(open('zachs_days.json', 'r'))['results']
 jarrods_days = json.load(open('jarrods_days.json', 'r'))['results']
@@ -94,12 +97,16 @@ sam_patch = mpatches.Patch(color='red', label='Sam')
 zach_patch = mpatches.Patch(color='blue', label='Zach')
 jarrod_patch = mpatches.Patch(color='green', label='Jarrod')
 plt.legend(handles=[sam_patch, zach_patch, jarrod_patch])
-plt.axis([0, 31, 0, max(totals) * 3])
+plt.axis([0, 31, 0, max(totals) * 2])
 
 fig.savefig('pullupstats/static/dailies.png')
 
 # Push to heroku
-os.system("python manage.py collectstatic")
-os.system("git add .")
-os.system("git commit -m 'auto commit'")
-os.system("git push heroku master")
+time.sleep(20)
+os.popen("python manage.py collectstatic").read()
+time.sleep(30)
+os.popen("git add .").read()
+time.sleep(10)
+os.popen("git commit -m 'auto commit'").read()
+time.sleep(10)
+os.popen("git push heroku master").read()
