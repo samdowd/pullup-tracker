@@ -68,6 +68,4 @@ subprocess.call(["git", "add", "."])
 subprocess.call(["git", "commit", "-m", "'auto'"])
 subprocess.call(["git", "push", "heroku", "master"])
 
-print(stdoutput)
-
 print("git done")
