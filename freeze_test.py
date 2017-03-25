@@ -2,6 +2,7 @@ import os
 import dataset
 import json
 import time
+import subprocess
 
 import matplotlib
 matplotlib.use('Agg')
@@ -63,13 +64,12 @@ fig.savefig('pullupstats/static/dailies.png')
 
 print ("image made")
 
-# Push to heroku
-os.popen("python manage.py collectstatic").read()
-time.sleep(30)
-os.popen("git add .").read()
-time.sleep(10)
-os.popen("git commit -m 'auto commit'").read()
-time.sleep(10)
-os.popen("git push heroku master").read()
+PIPE = subprocess.PIPE
+subprocess.call(["git", "add", "."])
+subprocess.call(["git", "commit", "-m", "'auto'"])
+process = subprocess.call(["git", "push", "heroku", "master"], stdout=PIPE, sterr=PIPE)
+stdoutput, stderroutput = process.communicate()
+
+print(stdoutput)
 
 print("git done")
