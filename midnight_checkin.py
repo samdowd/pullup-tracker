@@ -55,6 +55,7 @@ else:
                    .format(today_loser.name, alltime_loser.name, alltime_winner.name), lang="en")
 message.save("nightly_speech.mp3")
 os.system('mpg123 nightly_speech.mp3 &')
+time.sleep(10)
 
 # Make the new image and freeze json file for site to use
 sams_days = roommates_db.query("SELECT user_name, total, month_to_date, date FROM daily_totals WHERE user_name = 'Sam' ORDER BY date;")
@@ -102,7 +103,6 @@ plt.axis([0, 31, 0, max(totals) * 2])
 fig.savefig('pullupstats/static/dailies.png')
 
 # Push to heroku
-time.sleep(20)
 os.popen("python manage.py collectstatic").read()
 time.sleep(30)
 os.popen("git add .").read()

@@ -1,6 +1,7 @@
 import os
 import dataset
 import json
+import time
 
 import matplotlib
 matplotlib.use('Agg')
@@ -50,6 +51,16 @@ sam_patch = mpatches.Patch(color='red', label='Sam')
 zach_patch = mpatches.Patch(color='blue', label='Zach')
 jarrod_patch = mpatches.Patch(color='green', label='Jarrod')
 plt.legend(handles=[sam_patch, zach_patch, jarrod_patch])
-plt.axis([0, 31, 0, max(totals) * 3])
+plt.axis([0, 31, 0, max(totals) * 2])
 
 fig.savefig('pullupstats/static/dailies.png')
+
+
+# Push to heroku
+os.popen("python manage.py collectstatic").read()
+time.sleep(30)
+os.popen("git add .").read()
+time.sleep(10)
+os.popen("git commit -m 'auto commit'").read()
+time.sleep(10)
+os.popen("git push heroku master").read()

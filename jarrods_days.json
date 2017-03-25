@@ -2,64 +2,64 @@
   "count": 10, 
   "results": [
     {
-      "month_to_date": 129, 
-      "date": "2017-03-16", 
+      "user_name": "J-bod", 
       "total": 129, 
-      "user_name": "J-bod"
+      "month_to_date": 129, 
+      "date": "2017-03-16"
     }, 
     {
-      "month_to_date": 206, 
-      "date": "2017-03-17", 
+      "user_name": "J-bod", 
       "total": 77, 
-      "user_name": "J-bod"
+      "month_to_date": 206, 
+      "date": "2017-03-17"
     }, 
     {
-      "month_to_date": 224, 
-      "date": "2017-03-18", 
+      "user_name": "J-bod", 
       "total": 18, 
-      "user_name": "J-bod"
+      "month_to_date": 224, 
+      "date": "2017-03-18"
     }, 
     {
+      "user_name": "J-bod", 
+      "total": 51, 
       "month_to_date": 275, 
-      "date": "2017-03-19", 
-      "total": 51, 
-      "user_name": "J-bod"
+      "date": "2017-03-19"
     }, 
     {
-      "month_to_date": 402, 
-      "date": "2017-03-20", 
+      "user_name": "J-bod", 
       "total": 127, 
-      "user_name": "J-bod"
+      "month_to_date": 402, 
+      "date": "2017-03-20"
     }, 
     {
-      "month_to_date": 453, 
-      "date": "2017-03-21", 
+      "user_name": "J-bod", 
       "total": 51, 
-      "user_name": "J-bod"
+      "month_to_date": 453, 
+      "date": "2017-03-21"
     }, 
     {
-      "month_to_date": 514, 
-      "date": "2017-03-22", 
+      "user_name": "J-bod", 
       "total": 61, 
-      "user_name": "J-bod"
+      "month_to_date": 514, 
+      "date": "2017-03-22"
     }, 
     {
-      "month_to_date": 564, 
-      "date": "2017-03-23", 
+      "user_name": "J-bod", 
       "total": 50, 
-      "user_name": "J-bod"
+      "month_to_date": 564, 
+      "date": "2017-03-23"
     }, 
     {
-      "month_to_date": 630, 
-      "date": "2017-03-24", 
+      "user_name": "J-bod", 
       "total": 66, 
-      "user_name": "J-bod"
+      "month_to_date": 630, 
+      "date": "2017-03-24"
     }, 
     {
-      "month_to_date": 667, 
-      "date": "2017-03-25", 
+      "user_name": "J-bod", 
       "total": 37, 
-      "user_name": "J-bod"
+      "month_to_date": 667, 
+      "date": "2017-03-25"
     }
   ], 
   "meta": {}

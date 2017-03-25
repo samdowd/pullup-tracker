@@ -2,64 +2,64 @@
   "count": 10, 
   "results": [
     {
-      "month_to_date": 120, 
-      "date": "2017-03-16", 
+      "user_name": "Sam", 
       "total": 120, 
-      "user_name": "Sam"
+      "month_to_date": 120, 
+      "date": "2017-03-16"
     }, 
     {
-      "month_to_date": 126, 
-      "date": "2017-03-17", 
+      "user_name": "Sam", 
       "total": 6, 
-      "user_name": "Sam"
+      "month_to_date": 126, 
+      "date": "2017-03-17"
     }, 
     {
-      "month_to_date": 228, 
-      "date": "2017-03-18", 
+      "user_name": "Sam", 
       "total": 102, 
-      "user_name": "Sam"
+      "month_to_date": 228, 
+      "date": "2017-03-18"
     }, 
     {
-      "month_to_date": 281, 
-      "date": "2017-03-19", 
+      "user_name": "Sam", 
       "total": 53, 
-      "user_name": "Sam"
+      "month_to_date": 281, 
+      "date": "2017-03-19"
     }, 
     {
-      "month_to_date": 376, 
-      "date": "2017-03-20", 
+      "user_name": "Sam", 
       "total": 95, 
-      "user_name": "Sam"
+      "month_to_date": 376, 
+      "date": "2017-03-20"
     }, 
     {
-      "month_to_date": 384, 
-      "date": "2017-03-21", 
+      "user_name": "Sam", 
       "total": 8, 
-      "user_name": "Sam"
+      "month_to_date": 384, 
+      "date": "2017-03-21"
     }, 
     {
-      "month_to_date": 388, 
-      "date": "2017-03-22", 
+      "user_name": "Sam", 
       "total": 4, 
-      "user_name": "Sam"
+      "month_to_date": 388, 
+      "date": "2017-03-22"
     }, 
     {
-      "month_to_date": 389, 
-      "date": "2017-03-23", 
+      "user_name": "Sam", 
       "total": 1, 
-      "user_name": "Sam"
+      "month_to_date": 389, 
+      "date": "2017-03-23"
     }, 
     {
-      "month_to_date": 389, 
-      "date": "2017-03-24", 
+      "user_name": "Sam", 
       "total": 0, 
-      "user_name": "Sam"
+      "month_to_date": 389, 
+      "date": "2017-03-24"
     }, 
     {
-      "month_to_date": 389, 
-      "date": "2017-03-25", 
+      "user_name": "Sam", 
       "total": 0, 
-      "user_name": "Sam"
+      "month_to_date": 389, 
+      "date": "2017-03-25"
     }
   ], 
   "meta": {}
