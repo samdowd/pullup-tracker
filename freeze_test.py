@@ -64,11 +64,9 @@ fig.savefig('pullupstats/static/dailies.png')
 
 print ("image made")
 
-PIPE = subprocess.PIPE
 subprocess.call(["git", "add", "."])
 subprocess.call(["git", "commit", "-m", "'auto'"])
-process = subprocess.Popen(["git", "push", "heroku", "master"], stdout=PIPE, stderr=PIPE)
-stdoutput, stderroutput = process.communicate()
+subprocess.call(["git", "push", "heroku", "master"])
 
 print(stdoutput)
 
