@@ -2,28 +2,28 @@
   "count": 3, 
   "results": [
     {
+      "name": "J-bod", 
+      "code": 3, 
+      "max": 13, 
+      "total": 660, 
+      "day_total": 30, 
+      "month_total": 660
+    }, 
+    {
       "name": "Blade", 
       "code": 2, 
-      "max": 8, 
-      "total": 387, 
-      "day_total": 0, 
-      "month_total": 387
+      "max": 10, 
+      "total": 527, 
+      "day_total": 61, 
+      "month_total": 527
     }, 
     {
       "name": "Sam", 
       "code": 1, 
       "max": 12, 
-      "total": 376, 
+      "total": 389, 
       "day_total": 0, 
-      "month_total": 376
-    }, 
-    {
-      "name": "J-bod", 
-      "code": 3, 
-      "max": 11, 
-      "total": 402, 
-      "day_total": 0, 
-      "month_total": 402
+      "month_total": 389
     }
   ], 
   "meta": {}

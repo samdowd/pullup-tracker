@@ -12,6 +12,7 @@ roommates_db = dataset.connect('postgresql://sam:hellfire@localhost:5432/roommat
 users_db = roommates_db['users']
 dtotals_db = roommates_db['daily_totals']
 
+# Make the new image and freeze json file for site to use
 sams_days = roommates_db.query("SELECT user_name, total, month_to_date, date FROM daily_totals WHERE user_name = 'Sam' ORDER BY date;")
 zachs_days = roommates_db.query("SELECT user_name, total, month_to_date, date FROM daily_totals WHERE user_name = 'Blade' ORDER BY date;")
 jarrods_days = roommates_db.query("SELECT user_name, total, month_to_date, date FROM daily_totals WHERE user_name = 'J-bod' ORDER BY date;")
@@ -52,8 +53,3 @@ plt.legend(handles=[sam_patch, zach_patch, jarrod_patch])
 plt.axis([0, 31, 0, max(totals) * 3])
 
 fig.savefig('pullupstats/static/dailies.png')
-
-os.system("python manage.py collectstatic")
-os.system("git add .")
-os.system("git commit -m 'auto commit'")
-os.system("git push heroku master")

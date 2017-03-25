@@ -1,5 +1,5 @@
 {
-  "count": 5, 
+  "count": 9, 
   "results": [
     {
       "user_name": "Blade", 
@@ -30,6 +30,30 @@
       "total": 92, 
       "month_to_date": 387, 
       "date": "2017-03-20"
+    }, 
+    {
+      "user_name": "Blade", 
+      "total": 18, 
+      "month_to_date": 405, 
+      "date": "2017-03-21"
+    }, 
+    {
+      "user_name": "Blade", 
+      "total": 2, 
+      "month_to_date": 407, 
+      "date": "2017-03-22"
+    }, 
+    {
+      "user_name": "Blade", 
+      "total": 2, 
+      "month_to_date": 409, 
+      "date": "2017-03-23"
+    }, 
+    {
+      "user_name": "Blade", 
+      "total": 57, 
+      "month_to_date": 466, 
+      "date": "2017-03-24"
     }
   ], 
   "meta": {}
