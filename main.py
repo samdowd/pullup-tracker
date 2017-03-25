@@ -59,27 +59,15 @@ def count_a_set(user):
             secondsPassed = 0.0
             # Wait 3 seconds between pullups, break when the user takes longer than 3 seconds
             while secondsPassed < 3:
-                num_start_checks = 0
-                while num_start_checks < 3 and num_start_checks > -1:
-                    if GPIO.input(14):
-                        num_start_checks += 1
-                    else:
-                        num_start_checks -= 1
-                    time.sleep(0.05)
                 if GPIO.input(14):
                     os.system('mpg123 -q bang.mp3 &')
                     pullup_count += 1
                     lcd.clear()
                     lcd.message("Nice!\n%d pullups" % pullup_count)
                     secondsPassed = 0.0
-
-                    # Check three times if the user has lowered their body
-                    num_stop_checks = 0
-                    while num_stop_checks < 3:
-                        while GPIO.input(14):
-                            num_stop_checks = 0
-                            time.sleep(0.05)
-                        num_stop_checks += 1
+                    # Wait for user to lower body
+                    while GPIO.input(14):
+                        time.sleep(0.05)
                 time.sleep(0.1)
                 secondsPassed += .1
 
