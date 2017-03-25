@@ -67,7 +67,7 @@ print ("image made")
 PIPE = subprocess.PIPE
 subprocess.call(["git", "add", "."])
 subprocess.call(["git", "commit", "-m", "'auto'"])
-process = subprocess.Popen(["git", "push", "heroku", "master"], stdout=PIPE, sterr=PIPE)
+process = subprocess.Popen(["git", "push", "heroku", "master"], stdout=PIPE, stderr=PIPE)
 stdoutput, stderroutput = process.communicate()
 
 print(stdoutput)
