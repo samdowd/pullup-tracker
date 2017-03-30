@@ -2,6 +2,7 @@ import os
 import dataset
 import time
 import json
+import subprocess
 from stuf import stuf
 from gtts import gTTS
 
@@ -103,10 +104,6 @@ plt.axis([0, 31, 0, max(totals) * 2])
 fig.savefig('pullupstats/static/dailies.png')
 
 # Push to heroku
-os.popen("python manage.py collectstatic").read()
-time.sleep(30)
-os.popen("git add .").read()
-time.sleep(10)
-os.popen("git commit -m 'auto commit'").read()
-time.sleep(10)
-os.popen("git push heroku master").read()
+subprocess.call(["git", "add", "."])
+subprocess.call(["git", "commit", "-m", "'auto'"])
+subprocess.call(["git", "push", "heroku", "master"])

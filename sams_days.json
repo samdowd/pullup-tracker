@@ -1,5 +1,5 @@
 {
-  "count": 10, 
+  "count": 15, 
   "results": [
     {
       "user_name": "Sam", 
@@ -60,6 +60,36 @@
       "total": 0, 
       "month_to_date": 389, 
       "date": "2017-03-25"
+    }, 
+    {
+      "user_name": "Sam", 
+      "total": 15, 
+      "month_to_date": 404, 
+      "date": "2017-03-26"
+    }, 
+    {
+      "user_name": "Sam", 
+      "total": 10, 
+      "month_to_date": 414, 
+      "date": "2017-03-27"
+    }, 
+    {
+      "user_name": "Sam", 
+      "total": 8, 
+      "month_to_date": 422, 
+      "date": "2017-03-28"
+    }, 
+    {
+      "user_name": "Sam", 
+      "total": 23, 
+      "month_to_date": 445, 
+      "date": "2017-03-29"
+    }, 
+    {
+      "user_name": "Sam", 
+      "total": 17, 
+      "month_to_date": 462, 
+      "date": "2017-03-30"
     }
   ], 
   "meta": {}

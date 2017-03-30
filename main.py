@@ -86,7 +86,7 @@ def count_a_guest_set():
     lcd.clear()
     lcd.show_cursor(False)
     lcd.blink(False)
-    lcd.message("Welcome, {}!\nBegin.".format(user.name))
+    lcd.message("Welcome!\nBegin.")
     set_complete = False
     while not set_complete:
         # Start the first time the user raises their body
@@ -109,9 +109,13 @@ def count_a_guest_set():
 
             set_complete = True
             os.system('mpg123 -q ding.mp3 &')
-            record_a_set(user, pullup_count)
             lcd.clear()
-            lcd.message("Total: {}".format(pullup_count))
+            lcd.message("Total: {} Maxes:\nS:{} B:{} J:{}".format(pullup_count,
+                                                                  users_db.find_one(name='Sam').max,
+                                                                  users_db.find_one(name='Blade').max,
+                                                                  users_db.find_one(name='J-bod').max,
+                                                                 )
+                       )
             time.sleep(3)
         time.sleep(0.25)
 
@@ -172,6 +176,8 @@ def wait_for_code(users):
         lcd.blink(False)
         if code_string == '11':
             display_standings()
+        elif code_string == '32':
+            count_a_guest_set()
         else:
             lcd.message("Sorry!\nUnknown Code")
             time.sleep(.5)
