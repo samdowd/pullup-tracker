@@ -1,142 +1,46 @@
 {
-  "count": 23, 
+  "count": 7, 
   "results": [
     {
       "user_name": "Blade", 
-      "total": 122, 
-      "month_to_date": 122, 
-      "date": "2017-03-16"
-    }, 
-    {
-      "user_name": "Blade", 
-      "total": 71, 
-      "month_to_date": 193, 
-      "date": "2017-03-17"
-    }, 
-    {
-      "user_name": "Blade", 
-      "total": 73, 
-      "month_to_date": 266, 
-      "date": "2017-03-18"
-    }, 
-    {
-      "user_name": "Blade", 
-      "total": 29, 
-      "month_to_date": 295, 
-      "date": "2017-03-19"
-    }, 
-    {
-      "user_name": "Blade", 
-      "total": 92, 
-      "month_to_date": 387, 
-      "date": "2017-03-20"
-    }, 
-    {
-      "user_name": "Blade", 
-      "total": 18, 
-      "month_to_date": 405, 
-      "date": "2017-03-21"
-    }, 
-    {
-      "user_name": "Blade", 
-      "total": 2, 
-      "month_to_date": 407, 
-      "date": "2017-03-22"
-    }, 
-    {
-      "user_name": "Blade", 
-      "total": 2, 
-      "month_to_date": 409, 
-      "date": "2017-03-23"
-    }, 
-    {
-      "user_name": "Blade", 
-      "total": 57, 
-      "month_to_date": 466, 
-      "date": "2017-03-24"
-    }, 
-    {
-      "user_name": "Blade", 
-      "total": 91, 
-      "month_to_date": 557, 
-      "date": "2017-03-25"
-    }, 
-    {
-      "user_name": "Blade", 
-      "total": 26, 
-      "month_to_date": 583, 
-      "date": "2017-03-26"
-    }, 
-    {
-      "user_name": "Blade", 
-      "total": 56, 
-      "month_to_date": 639, 
-      "date": "2017-03-27"
-    }, 
-    {
-      "user_name": "Blade", 
-      "total": 37, 
-      "month_to_date": 676, 
-      "date": "2017-03-28"
-    }, 
-    {
-      "user_name": "Blade", 
-      "total": 50, 
-      "month_to_date": 726, 
-      "date": "2017-03-29"
-    }, 
-    {
-      "user_name": "Blade", 
-      "total": 62, 
-      "month_to_date": 788, 
-      "date": "2017-03-30"
-    }, 
-    {
-      "user_name": "Blade", 
-      "total": 17, 
-      "month_to_date": 805, 
-      "date": "2017-03-31"
-    }, 
-    {
-      "user_name": "Blade", 
       "total": 0, 
-      "month_to_date": 805, 
+      "month_to_date": 0, 
       "date": "2017-04-01"
     }, 
     {
       "user_name": "Blade", 
       "total": 0, 
-      "month_to_date": 805, 
+      "month_to_date": 0, 
       "date": "2017-04-02"
     }, 
     {
       "user_name": "Blade", 
       "total": 9, 
-      "month_to_date": 814, 
+      "month_to_date": 9, 
       "date": "2017-04-03"
     }, 
     {
       "user_name": "Blade", 
       "total": 8, 
-      "month_to_date": 822, 
+      "month_to_date": 17, 
       "date": "2017-04-04"
     }, 
     {
       "user_name": "Blade", 
       "total": 25, 
-      "month_to_date": 847, 
+      "month_to_date": 42, 
       "date": "2017-04-05"
     }, 
     {
       "user_name": "Blade", 
       "total": 3, 
-      "month_to_date": 850, 
+      "month_to_date": 45, 
       "date": "2017-04-06"
     }, 
     {
       "user_name": "Blade", 
       "total": 1, 
-      "month_to_date": 851, 
+      "month_to_date": 46, 
       "date": "2017-04-07"
     }
   ], 
