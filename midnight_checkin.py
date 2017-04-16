@@ -101,7 +101,7 @@ jarrod_patch = mpatches.Patch(color='green', label='Jarrod')
 plt.legend(handles=[sam_patch, zach_patch, jarrod_patch])
 plt.axis([0, 31, 0, max(totals) * 2])
 
-fig.savefig('pullupstats/static/dailies.png')
+fig.savefig('./pullupstats/static/dailies.png')
 
 # Push to heroku
 subprocess.call(["git", "add", "."])

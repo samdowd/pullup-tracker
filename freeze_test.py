@@ -60,13 +60,13 @@ jarrod_patch = mpatches.Patch(color='green', label='Jarrod')
 plt.legend(handles=[sam_patch, zach_patch, jarrod_patch])
 plt.axis([0, 31, 0, max(totals) * 2])
 
-fig.savefig('pullupstats/static/dailies.png')
+fig.savefig('/home/pi/pulluptracker/pullupstats/static/dailies.png')
 
 
 print ("image made")
 
-subprocess.call(["git", "add", "."])
-subprocess.call(["git", "commit", "-m", "'auto'"])
-subprocess.call(["git", "push", "heroku", "master"])
+subprocess.call(["git", "add", "."], cwd="/home/pi/pulluptracker/")
+subprocess.call(["git", "commit", "-m", "'auto'"], cwd="/home/pi/pulluptracker/")
+subprocess.call(["git", "push", "heroku", "master"], cwd="/home/pi/pulluptracker/")
 
 print("git done")
