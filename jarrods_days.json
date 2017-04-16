@@ -1,5 +1,5 @@
 {
-  "count": 15, 
+  "count": 23, 
   "results": [
     {
       "user_name": "J-bod", 
@@ -90,6 +90,54 @@
       "total": 25, 
       "month_to_date": 916, 
       "date": "2017-03-30"
+    }, 
+    {
+      "user_name": "J-bod", 
+      "total": 0, 
+      "month_to_date": 916, 
+      "date": "2017-03-31"
+    }, 
+    {
+      "user_name": "J-bod", 
+      "total": 0, 
+      "month_to_date": 916, 
+      "date": "2017-04-01"
+    }, 
+    {
+      "user_name": "J-bod", 
+      "total": 20, 
+      "month_to_date": 936, 
+      "date": "2017-04-02"
+    }, 
+    {
+      "user_name": "J-bod", 
+      "total": 19, 
+      "month_to_date": 955, 
+      "date": "2017-04-03"
+    }, 
+    {
+      "user_name": "J-bod", 
+      "total": 16, 
+      "month_to_date": 971, 
+      "date": "2017-04-04"
+    }, 
+    {
+      "user_name": "J-bod", 
+      "total": 20, 
+      "month_to_date": 991, 
+      "date": "2017-04-05"
+    }, 
+    {
+      "user_name": "J-bod", 
+      "total": 8, 
+      "month_to_date": 999, 
+      "date": "2017-04-06"
+    }, 
+    {
+      "user_name": "J-bod", 
+      "total": 18, 
+      "month_to_date": 1017, 
+      "date": "2017-04-07"
     }
   ], 
   "meta": {}

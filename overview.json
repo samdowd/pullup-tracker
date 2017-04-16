@@ -5,25 +5,25 @@
       "name": "J-bod", 
       "code": 3, 
       "max": 13, 
-      "total": 916, 
+      "total": 1017, 
       "day_total": 0, 
-      "month_total": 916
+      "month_total": 101
     }, 
     {
       "name": "Blade", 
       "code": 2, 
-      "max": 10, 
-      "total": 788, 
+      "max": 14, 
+      "total": 851, 
       "day_total": 0, 
-      "month_total": 788
+      "month_total": 46
     }, 
     {
       "name": "Sam", 
       "code": 1, 
       "max": 12, 
-      "total": 462, 
-      "day_total": 0, 
-      "month_total": 462
+      "total": 502, 
+      "day_total": 13, 
+      "month_total": 40
     }
   ], 
   "meta": {}

@@ -1,5 +1,5 @@
 {
-  "count": 15, 
+  "count": 23, 
   "results": [
     {
       "user_name": "Sam", 
@@ -90,6 +90,54 @@
       "total": 17, 
       "month_to_date": 462, 
       "date": "2017-03-30"
+    }, 
+    {
+      "user_name": "Sam", 
+      "total": 0, 
+      "month_to_date": 462, 
+      "date": "2017-03-31"
+    }, 
+    {
+      "user_name": "Sam", 
+      "total": 1, 
+      "month_to_date": 463, 
+      "date": "2017-04-01"
+    }, 
+    {
+      "user_name": "Sam", 
+      "total": 0, 
+      "month_to_date": 463, 
+      "date": "2017-04-02"
+    }, 
+    {
+      "user_name": "Sam", 
+      "total": 0, 
+      "month_to_date": 463, 
+      "date": "2017-04-03"
+    }, 
+    {
+      "user_name": "Sam", 
+      "total": 0, 
+      "month_to_date": 463, 
+      "date": "2017-04-04"
+    }, 
+    {
+      "user_name": "Sam", 
+      "total": 0, 
+      "month_to_date": 463, 
+      "date": "2017-04-05"
+    }, 
+    {
+      "user_name": "Sam", 
+      "total": 0, 
+      "month_to_date": 463, 
+      "date": "2017-04-06"
+    }, 
+    {
+      "user_name": "Sam", 
+      "total": 26, 
+      "month_to_date": 489, 
+      "date": "2017-04-07"
     }
   ], 
   "meta": {}
