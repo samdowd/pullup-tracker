@@ -58,8 +58,8 @@ def count_a_set(user):
             pullup_count = 0
             secondsPassed = 0.0
             # Wait 3 seconds between pullups, break when the user takes longer than 3 seconds
-            while secondsPassed < 3:
-                if GPIO.input(14):
+            while secondsPassed < 3.0:
+                if GPIO.input(14) and (secondsPassed > 1.0 or pullup_count == 0):
                     os.system('mpg123 -q bang.mp3 &')
                     pullup_count += 1
                     lcd.clear()
@@ -68,6 +68,8 @@ def count_a_set(user):
                     # Wait for user to lower body
                     while GPIO.input(14):
                         time.sleep(0.05)
+                if check_for_keypress():
+                    break
                 time.sleep(0.1)
                 secondsPassed += .1
 
@@ -79,6 +81,8 @@ def count_a_set(user):
                                                                user.day_total+pullup_count,
                                                                max(user.max,pullup_count)))
             time.sleep(3)
+        if check_for_keypress():
+            break
         time.sleep(0.25)
 
 
@@ -94,8 +98,8 @@ def count_a_guest_set():
             pullup_count = 0
             secondsPassed = 0.0
             # Wait 3 seconds between pullups, break when the user takes longer than 3 seconds
-            while secondsPassed < 3:
-                if GPIO.input(14):
+            while secondsPassed < 3.0:
+                if GPIO.input(14) and (secondsPassed > 1.0 or pullup_count == 0):
                     os.system('mpg123 -q bang.mp3 &')
                     pullup_count += 1
                     lcd.clear()
@@ -104,6 +108,8 @@ def count_a_guest_set():
                     # Wait for user to lower body
                     while GPIO.input(14):
                         time.sleep(0.05)
+                if check_for_keypress():
+                    break
                 time.sleep(0.1)
                 secondsPassed += .1
 
@@ -117,6 +123,8 @@ def count_a_guest_set():
                                                                  )
                        )
             time.sleep(3)
+        if check_for_keypress():
+            break
         time.sleep(0.25)
 
 
