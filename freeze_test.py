@@ -62,6 +62,7 @@ plt.axis([0, 31, 0, max(totals) * 2])
 
 fig.savefig('pullupstats/static/dailies.png')
 
+
 print ("image made")
 
 subprocess.call(["git", "add", "."])
