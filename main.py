@@ -56,10 +56,10 @@ def count_a_set(user):
         # Start the first time the user raises their body
         if GPIO.input(14):
             pullup_count = 0
-            secondsPassed = 0.0
+            secondsPassed = 1.0
             # Wait 3 seconds between pullups, break when the user takes longer than 3 seconds
             while secondsPassed < 3.0:
-                if GPIO.input(14) and (secondsPassed > 1.0 or pullup_count == 0):
+                if GPIO.input(14) and secondsPassed >= 1.0:
                     os.system('mpg123 -q bang.mp3 &')
                     pullup_count += 1
                     lcd.clear()
@@ -99,7 +99,7 @@ def count_a_guest_set():
             secondsPassed = 0.0
             # Wait 3 seconds between pullups, break when the user takes longer than 3 seconds
             while secondsPassed < 3.0:
-                if GPIO.input(14) and (secondsPassed > 1.0 or pullup_count == 0):
+                if GPIO.input(14) and secondsPassed >= 1.0:
                     os.system('mpg123 -q bang.mp3 &')
                     pullup_count += 1
                     lcd.clear()
