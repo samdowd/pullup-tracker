@@ -59,9 +59,9 @@ os.system('mpg123 nightly_speech.mp3 &')
 time.sleep(10)
 
 # Make the new image and freeze json file for site to use
-sams_days = roommates_db.query("SELECT user_name, total, month_to_date, date FROM daily_totals WHERE user_name = 'Sam' ORDER BY date;")
-zachs_days = roommates_db.query("SELECT user_name, total, month_to_date, date FROM daily_totals WHERE user_name = 'Blade' ORDER BY date;")
-jarrods_days = roommates_db.query("SELECT user_name, total, month_to_date, date FROM daily_totals WHERE user_name = 'J-bod' ORDER BY date;")
+sams_days = roommates_db.query("SELECT user_name, total, month_to_date, date FROM daily_totals WHERE user_name = 'Sam' AND date::date > '2017-03-31'::date ORDER BY date;")
+zachs_days = roommates_db.query("SELECT user_name, total, month_to_date, date FROM daily_totals WHERE user_name = 'Blade' AND date::date > '2017-03-31'::date ORDER BY date;")
+jarrods_days = roommates_db.query("SELECT user_name, total, month_to_date, date FROM daily_totals WHERE user_name = 'J-bod' AND date::date > '2017-03-31'::date ORDER BY date;")
 dataset.freeze(sams_days, format='json', filename='sams_days.json')
 dataset.freeze(zachs_days, format='json', filename='zachs_days.json')
 dataset.freeze(jarrods_days, format='json', filename='jarrods_days.json')

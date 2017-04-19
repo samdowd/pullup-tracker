@@ -96,7 +96,7 @@ def count_a_guest_set():
         # Start the first time the user raises their body
         if GPIO.input(14):
             pullup_count = 0
-            secondsPassed = 0.0
+            secondsPassed = 1.0
             # Wait 3 seconds between pullups, break when the user takes longer than 3 seconds
             while secondsPassed < 3.0:
                 if GPIO.input(14) and secondsPassed >= 1.0:
