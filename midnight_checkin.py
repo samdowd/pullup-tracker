@@ -50,9 +50,9 @@ alltime_loser = users_db.find_one(total=alltime_worst_count)
 
 # Call out the losers
 if alltime_loser.name == today_loser.name:
-    message = gTTS(text="{} is pathetic and is the biggest bitch today and always... {} is the current champion!".format(today_loser.name, alltime_winner.name), lang="en")
+    message = gTTS(text="{} is pathetic and is the biggest loser today and always... {} is the current champion!".format(today_loser.name, alltime_winner.name), lang="en")
 else:
-    message = gTTS(text="{} is a little bitch, but {} is still the biggest bitch of all time... {} is the current champion!"
+    message = gTTS(text="{} is a little loser, but {} is still the biggest loser of all time... {} is the current champion!"
                    .format(today_loser.name, alltime_loser.name, alltime_winner.name), lang="en")
 message.save("nightly_speech.mp3")
 os.system('mpg123 nightly_speech.mp3 &')
