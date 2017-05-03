@@ -19,11 +19,11 @@
     }, 
     {
       "code": 1, 
-      "day_total": 0, 
+      "day_total": 6, 
       "name": "Sam", 
       "max": 12, 
-      "month_total": 8, 
-      "total": 630
+      "month_total": 14, 
+      "total": 636
     }
   ], 
   "meta": {}
