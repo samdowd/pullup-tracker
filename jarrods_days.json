@@ -1,47 +1,155 @@
 {
-  "count": 7, 
+  "count": 25, 
   "results": [
     {
-      "user_name": "J-bod", 
-      "total": 0, 
       "month_to_date": 0, 
-      "date": "2017-04-01"
+      "date": "2017-04-01", 
+      "total": 0, 
+      "user_name": "J-bod"
     }, 
     {
-      "user_name": "J-bod", 
-      "total": 20, 
       "month_to_date": 20, 
-      "date": "2017-04-02"
-    }, 
-    {
-      "user_name": "J-bod", 
-      "total": 19, 
-      "month_to_date": 39, 
-      "date": "2017-04-03"
-    }, 
-    {
-      "user_name": "J-bod", 
-      "total": 16, 
-      "month_to_date": 55, 
-      "date": "2017-04-04"
-    }, 
-    {
-      "user_name": "J-bod", 
+      "date": "2017-04-02", 
       "total": 20, 
+      "user_name": "J-bod"
+    }, 
+    {
+      "month_to_date": 39, 
+      "date": "2017-04-03", 
+      "total": 19, 
+      "user_name": "J-bod"
+    }, 
+    {
+      "month_to_date": 55, 
+      "date": "2017-04-04", 
+      "total": 16, 
+      "user_name": "J-bod"
+    }, 
+    {
       "month_to_date": 75, 
-      "date": "2017-04-05"
+      "date": "2017-04-05", 
+      "total": 20, 
+      "user_name": "J-bod"
     }, 
     {
-      "user_name": "J-bod", 
-      "total": 8, 
       "month_to_date": 83, 
-      "date": "2017-04-06"
+      "date": "2017-04-06", 
+      "total": 8, 
+      "user_name": "J-bod"
     }, 
     {
-      "user_name": "J-bod", 
-      "total": 18, 
       "month_to_date": 101, 
-      "date": "2017-04-07"
+      "date": "2017-04-07", 
+      "total": 18, 
+      "user_name": "J-bod"
+    }, 
+    {
+      "month_to_date": 110, 
+      "date": "2017-04-17", 
+      "total": 9, 
+      "user_name": "J-bod"
+    }, 
+    {
+      "month_to_date": 110, 
+      "date": "2017-04-18", 
+      "total": 0, 
+      "user_name": "J-bod"
+    }, 
+    {
+      "month_to_date": 134, 
+      "date": "2017-04-19", 
+      "total": 24, 
+      "user_name": "J-bod"
+    }, 
+    {
+      "month_to_date": 163, 
+      "date": "2017-04-20", 
+      "total": 29, 
+      "user_name": "J-bod"
+    }, 
+    {
+      "month_to_date": 166, 
+      "date": "2017-04-21", 
+      "total": 3, 
+      "user_name": "J-bod"
+    }, 
+    {
+      "month_to_date": 178, 
+      "date": "2017-04-22", 
+      "total": 12, 
+      "user_name": "J-bod"
+    }, 
+    {
+      "month_to_date": 178, 
+      "date": "2017-04-23", 
+      "total": 0, 
+      "user_name": "J-bod"
+    }, 
+    {
+      "month_to_date": 178, 
+      "date": "2017-04-24", 
+      "total": 0, 
+      "user_name": "J-bod"
+    }, 
+    {
+      "month_to_date": 188, 
+      "date": "2017-04-25", 
+      "total": 10, 
+      "user_name": "J-bod"
+    }, 
+    {
+      "month_to_date": 188, 
+      "date": "2017-04-26", 
+      "total": 0, 
+      "user_name": "J-bod"
+    }, 
+    {
+      "month_to_date": 195, 
+      "date": "2017-04-27", 
+      "total": 7, 
+      "user_name": "J-bod"
+    }, 
+    {
+      "month_to_date": 195, 
+      "date": "2017-04-28", 
+      "total": 0, 
+      "user_name": "J-bod"
+    }, 
+    {
+      "month_to_date": 195, 
+      "date": "2017-04-29", 
+      "total": 0, 
+      "user_name": "J-bod"
+    }, 
+    {
+      "month_to_date": 217, 
+      "date": "2017-04-30", 
+      "total": 22, 
+      "user_name": "J-bod"
+    }, 
+    {
+      "month_to_date": 233, 
+      "date": "2017-05-01", 
+      "total": 16, 
+      "user_name": "J-bod"
+    }, 
+    {
+      "month_to_date": 0, 
+      "date": "2017-05-02", 
+      "total": 0, 
+      "user_name": "J-bod"
+    }, 
+    {
+      "month_to_date": 0, 
+      "date": "2017-05-03", 
+      "total": 0, 
+      "user_name": "J-bod"
+    }, 
+    {
+      "month_to_date": 0, 
+      "date": "2017-05-03", 
+      "total": 0, 
+      "user_name": "J-bod"
     }
   ], 
   "meta": {}

@@ -1,0 +1,39 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>What is this?</title>
+
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="col-md-10 col-md-offset-1 text-center">
+                <div class="col-md-12 text-center title">
+                    <h1>What is this?</h1>
+                    <hr />
+                </div>
+                <div class="col-md-6">
+                    <p>This is the web app that tracks statistics for the pullup tracker I built to compete with my roommates on our pullup bar. See the demo video to better understand the system.</p>
+                </div>
+                <div class="col-md-6">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/XDkRlvqNIRU" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-12 text-center">
+                    <hr />
+                    <h2><a href = "{% url 'index' %}">Back to main site</a></h2>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

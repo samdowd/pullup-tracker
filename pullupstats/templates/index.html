@@ -13,12 +13,15 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <title>L1 Pullup Stats</title>
+
     </head>
     <body>
         <div class="container-fluid">
             <div class="col-md-10 col-md-offset-1 text-center">
                 <div class="col-md-12 text-center title">
                     <h1>L1 Pullup Stats</h1>
+                    <p><a href = "{% url 'explanation' %}">What is this?</a></p>
                     <hr />
                 </div>
                 <div class="col-md-12">
@@ -34,7 +37,7 @@
                     </div>
                     <div class="col-md-4">
                         <h3>April</h3>
-                        <h1>TBD</h1>
+                        <h1>J-Bod - 233 pullups</h1>
                     </div>
                     <div class="col-md-4">
                         <h3>May</h3>
@@ -53,7 +56,7 @@
                         <h1>{{ topmax.name }} - {{ topmax.max_pullups }}</h1>
                     </div>
                     <div class="col-md-6">
-                        <h2>Most Daily Wins</h2>
+                        <h2>Most Daily Wins This Month</h2>
                         <h1>{{ daily_wins_winner }} - {{ daily_wins_top }}</h1>
                     </div>
                 </div>
@@ -68,6 +71,14 @@
                     </div>
                     {% endfor %}
                 </div>
+            </div>
+        </div>
+        <div class="col-md-12 text-center" style="background-color: #eee; min-height: 100vh; display: flex; align-items: center;">
+            <div class = "col-md-6">
+                <h3><a href="{% url 'explanation' %}">What is this?</a></h3>
+            </div>
+            <div class = "col-md-6">
+                <h3><a href="http://mdowd.me/" target="_blank">Who am I?</a></h3>
             </div>
         </div>
     </body>

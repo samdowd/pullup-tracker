@@ -50,30 +50,30 @@ alltime_loser = users_db.find_one(total=alltime_worst_count)
 
 # Call out the losers
 if alltime_loser.name == today_loser.name:
-    message = gTTS(text="{} is pathetic and is the biggest loser today and always... {} is the current champion!".format(today_loser.name, alltime_winner.name), lang="en")
+    message = gTTS(text="{} is pathetic and is the biggest bitch today and always... {} is the current champion!".format(today_loser.name, alltime_winner.name), lang="en")
 else:
-    message = gTTS(text="{} is a little loser, but {} is still the biggest loser of all time... {} is the current champion!"
+    message = gTTS(text="{} is a little bitch, but {} is still the biggest bitch of all time... {} is the current champion!"
                    .format(today_loser.name, alltime_loser.name, alltime_winner.name), lang="en")
-message.save("nightly_speech.mp3")
-os.system('mpg123 nightly_speech.mp3 &')
+message.save("/home/pi/pulluptracker/nightly_speech.mp3")
+os.system('mpg123 /home/pi/pulluptracker/nightly_speech.mp3 &')
 time.sleep(10)
 
 # Make the new image and freeze json file for site to use
 sams_days = roommates_db.query("SELECT user_name, total, month_to_date, date FROM daily_totals WHERE user_name = 'Sam' AND date::date > '2017-03-31'::date ORDER BY date;")
 zachs_days = roommates_db.query("SELECT user_name, total, month_to_date, date FROM daily_totals WHERE user_name = 'Blade' AND date::date > '2017-03-31'::date ORDER BY date;")
 jarrods_days = roommates_db.query("SELECT user_name, total, month_to_date, date FROM daily_totals WHERE user_name = 'J-bod' AND date::date > '2017-03-31'::date ORDER BY date;")
-dataset.freeze(sams_days, format='json', filename='sams_days.json')
-dataset.freeze(zachs_days, format='json', filename='zachs_days.json')
-dataset.freeze(jarrods_days, format='json', filename='jarrods_days.json')
+dataset.freeze(sams_days, format='json', filename='/home/pi/pulluptracker/sams_days.json')
+dataset.freeze(zachs_days, format='json', filename='/home/pi/pulluptracker/zachs_days.json')
+dataset.freeze(jarrods_days, format='json', filename='/home/pi/pulluptracker/jarrods_days.json')
 
-dataset.freeze(users_db, format='json', filename='overview.json')
+dataset.freeze(users_db, format='json', filename='/home/pi/pulluptracker/overview.json')
 
 print("datasets frozen")
 time.sleep(10)
 
-sams_days = json.load(open('sams_days.json', 'r'))['results']
-zachs_days = json.load(open('zachs_days.json', 'r'))['results']
-jarrods_days = json.load(open('jarrods_days.json', 'r'))['results']
+sams_days = json.load(open('/home/pi/pulluptracker/sams_days.json', 'r'))['results']
+zachs_days = json.load(open('/home/pi/pulluptracker/zachs_days.json', 'r'))['results']
+jarrods_days = json.load(open('/home/pi/pulluptracker/jarrods_days.json', 'r'))['results']
 
 sam_totals = [0]
 days = [15]
