@@ -24,7 +24,8 @@
                     <hr />
                 </div>
                 <div class="col-md-6">
-                    <p>This is the web app that tracks statistics for the pullup tracker I built to compete with my roommates on our pullup bar. See the demo video to better understand the system.</p>
+                    <p>This is the web app that tracks statistics for the pullup tracker I built to compete with my roommates on our pullup bar. The system is a Raspberry Pi with a keypad, an LCD, an infrared sensor, and speakers. Internally it is three cron jobs running three Python scripts, a PostgreSQL database, and a Django web app hosted on Heroku that is updated nightly by one of the Python scripts. Users can enter their personal code and rep out a set of pullups, and all the information will be stored in the database and updated on the web app nightly. They can also enter other codes to get information directly from the LCD.</p>
+                    <p>See the video for a demonstration, read <a href="{% static 'final-report.pdf' %}">this report</a> I wrote to get credit for the project for a class, or check out <a href="https://github.com/samdowd/pullup-tracker/">the code on GitHub</a>.</p>
                 </div>
                 <div class="col-md-6">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/XDkRlvqNIRU" frameborder="0" allowfullscreen></iframe>
