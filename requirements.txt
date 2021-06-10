@@ -1,4 +1,4 @@
-Django==1.10.6
+Django==2.2.24
 Pillow==2.6.1
 SQLAlchemy==1.1.6
 dataset==0.8.0
