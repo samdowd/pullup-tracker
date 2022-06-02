@@ -2,7 +2,7 @@ Django==1.10.6
 Pillow==2.6.1
 SQLAlchemy==1.1.6
 dataset==0.8.0
-html5lib==0.999
+html5lib==0.99999999
 psycopg2==2.7.1
 urllib3==1.9.1
 matplotlib==1.4.2
